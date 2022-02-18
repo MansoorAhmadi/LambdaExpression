@@ -5,7 +5,18 @@ public class Main {
     public static void main(String[] args) {
 	// write your code here
 
-        (x,y) -> System.out.println(x+y);
+    /**
+     * Lambda addition
+     */
+    (i, j) -> System.out.println(i+j);
+
+    (a,b) -> System.out.println(a*b);
+
+    s -> System.out.println(s);
+
+    (int x, int y) -> return (x*y);
+
+
 
     }
 }
